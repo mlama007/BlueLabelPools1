@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Header*/
+.header {
+  background-color: #c7af44;
+  text-align: center;
+}
+
+.container  ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.header li {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  padding: 0 .5em;
+}
+
+.header .companyName {
+  background-color: #3850BB;
+  padding: 0 1em;
+}
+.companyName h1{
+  margin-top: .4em;
+  margin-bottom: .4em;
+}
+
+/*Jumbotron*/  
+.jumbotron {
+  background-image: url(../images/water.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  padding: 2em 0;
+}
+
+.jumbotron .container {
+    position: relative;
+    color: royalblue;
+    text-align: center;
+}
+
+.jumbotron .container h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*Footer*/    
+.footer {
+  background-color: #3850BB;
+  color: white;
+  padding: .2em 0px;
+  text-align: center;
+  }
+
+.footer .container {
+    display: inline-flex;
+}
+
+.footer .container p{
+  padding: 0 7em;
+}
+
+.footer .container a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: .5em 1em;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    /*background-image: url(../images/water.jpg);*/
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/*Tabs*/  
+.main{
+    padding: 0;
+    margin: 0;
+}
+
+.tablinks:hover,
+.tablinks:focus{
+    color: #3850BB;
+}
+
+#About p, #Contact p{
+    margin-top: 1.2em;
+    font-size: 1.2em;
+}
+
+#Services, #Contact {
+    text-align: center;
+    list-style: none;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#Services ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#Services li{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.tabcontent .container {
+    margin: auto;
+    width: 75%;
+    background-color: rgba(255,255,255,0.65);
+    border-radius: 3em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.team {
+    border-radius: 2em;
+}
+.works img {
+    border-radius: .4em;
+}
