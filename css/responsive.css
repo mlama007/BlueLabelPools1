@@ -153,5 +153,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    #phone {
+        font-size: 1em;
+    }
 }
