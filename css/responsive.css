@@ -30,9 +30,6 @@
     .label {
         display: none;
     }
-    .companyName {
-        width: 100%;
-    }
     .footer .container p{
         padding: 0 1em;
     }
@@ -80,9 +77,6 @@
     .footer .container p{
     padding: 0 2em;
     }
-    .companyName {
-        width: 100%;
-    }
     .footer .Credentials {
         display: none;
     }
@@ -96,9 +90,6 @@
 
     header {
         font-size: 1em;
-    }
-    .companyName {
-        width: 93.5%;
     }
     
 }
@@ -128,9 +119,6 @@
         margin-left: auto;
         margin-right: auto;
     }  
-    .companyName {
-        width: 94.5%;
-    }
     .footer .container p{
         padding-top: 1.5em;
     }
@@ -165,7 +153,5 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .companyName {
-        width: 40%;
-    } 
+
 }
