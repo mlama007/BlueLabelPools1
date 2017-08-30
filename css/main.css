@@ -31,8 +31,16 @@ html, body {
   padding: .4em 0;
 }
 
+@font-face {
+  font-family: "dubsteptrix";
+  src: url(fonts/dubsteptrix.ttf) format("truetype");
+}
+
 .header .container h1{
     margin: 0;
+    font-family: "dubsteptrix", sans-serif;
+    font-size: 3em;
+    letter-spacing: .1em;
 }
 
 /*Jumbotron*/  
